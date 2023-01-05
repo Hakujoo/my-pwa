@@ -5,10 +5,11 @@ const registerServiceWorker = async () => {
                 scope: '/my-pwa/'
             });
 
+            const text = document.getElementById("online-state");
             if (navigator.onLine) {
-                console.log('online');
+                text.text = "You are online";
             } else {
-                console.log('offline');
+                text.text = "You are offline";
             }
 
             if (registration.installing) {
