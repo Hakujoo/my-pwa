@@ -2,14 +2,14 @@
     user-select: none;
 }
 
-.content {
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 @media (min-width: 480px) {
-    .content {
+    body {
         display: block;
     }
 }
