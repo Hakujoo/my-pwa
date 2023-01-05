@@ -1,14 +1,14 @@
 {
     "name": "Potato Web Application",
     "short_name": "PWA",
-    "start_url": "/index.html",
+    "start_url": "/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff",
     "icons": [
       {
         "src": "potato.png",
-        "sizes": "512x512",
+        "sizes": "144x144",
         "type": "image/png"
       }
     ]
