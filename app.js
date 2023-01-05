@@ -12,7 +12,7 @@ const registerServiceWorker = async () => {
                 console.log("Service worker actif");
             }
         } catch (error) {
-            console.log('Echec');
+            console.log(`Echec d'installation du worker : ${error}`);
         }
     }
 }
