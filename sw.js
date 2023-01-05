@@ -6,7 +6,7 @@ const addResourcesToCache = async (resources) => {
 self.addEventListener("install", (event) => {
     event.waitUntil(
         addResourcesToCache([
-            "/",
+            "/my-pwa",
         ])
     );
 });
