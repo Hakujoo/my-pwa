@@ -1,3 +1,15 @@
 .unselectable {
     user-select: none;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 480px) {
+    .content {
+        display: block;
+    }
+}
